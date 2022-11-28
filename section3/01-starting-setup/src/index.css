@@ -8,13 +8,12 @@
 html {
   /*font-family: 'Noto Sans JP', sans-serif;*/
   font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 body {
   margin: 0;
-  padding: 2em;
+  padding: 0em;
   background-color: #00cb9f;
 }
 
