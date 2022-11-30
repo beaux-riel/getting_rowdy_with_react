@@ -1,6 +1,8 @@
-import Expenses from "./components/Expenses";
+// Don't need to import React but old mate Max was making a point. I dig it.
+import React from'react';
+import Expenses from "./components/Expenses/Expenses";
 
-function App() {
+const App = () => {
   // "expenses" data provided as part of course materials
   const expenses = [
     {
@@ -28,6 +30,15 @@ function App() {
     },
   ];
 
+  // This got me so confused in the past because it wasn't explained well!
+  // return React.createElement(
+  //   'div', 
+  //   {}, 
+  //   React.createElement('h2', {}, "Let's get started!"), 
+  //   React.createElement(Expenses, { items: expenses }, )
+  // );
+
+  // Much prefer the JSX way of doing things.
   return (
     <div>
       <h2>Let's get started, Beaux-migo!</h2>
