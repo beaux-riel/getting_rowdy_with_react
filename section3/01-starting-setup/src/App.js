@@ -1,5 +1,6 @@
 // Don't need to import React but old mate Max was making a point. I dig it.
 import React from'react';
+import NewExpense from './components/NewExpense/NewExpense';
 import Expenses from "./components/Expenses/Expenses";
 
 const App = () => {
@@ -41,7 +42,7 @@ const App = () => {
   // Much prefer the JSX way of doing things.
   return (
     <div>
-      <h2>Let's get started, Beaux-migo!</h2>
+      <NewExpense />
       <Expenses items={expenses}/>
     </div>
   );
