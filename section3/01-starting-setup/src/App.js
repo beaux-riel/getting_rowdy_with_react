@@ -33,7 +33,7 @@ const App = () => {
 
   const addExpenseHandler = expense => {
     console.log('In App.js');
-    console.log(expenses);
+    console.log(expense);
   };
 
   // This got me so confused in the past because it wasn't explained well!
